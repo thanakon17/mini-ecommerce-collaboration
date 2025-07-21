@@ -1,16 +1,22 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const loader = document.getElementById("loader");
+    const content = document.getElementById("content");
     const productList = document.getElementById('product-list');
     const searchInput = document.getElementById('searchInput');
     let allProducts = [];
-
+    loader.style.display = "block";
+    content.style.display = "none";
     // Fetch products from JSON
-    fetch('js/products.json')
-        .then(response => response.json())
-        .then(data => {
-            allProducts = data;
-            displayProducts(allProducts);
-        });
-
+    setTimeout(() => {
+        fetch('js/products.json')
+            .then(response => response.json())
+            .then(data => {
+                loader.style.display = "none";
+                content.style.display = "block";
+                allProducts = data;
+                displayProducts(allProducts);
+            });
+    }, 1000);
     function displayProducts(products) {
         productList.innerHTML = ''; // Clear previous list
         products.forEach(product => {
