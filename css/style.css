@@ -11,10 +11,11 @@ main {justify-content: center; padding: 1rem; }
     width: 200px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    transition: 0.7s;
+    transition: 0.4s;
 }
 .product-card:hover{
     transform: scale(1.05);
+    background:#42424231;
 }
 #product-list{
     display: flex; flex-wrap: wrap;
