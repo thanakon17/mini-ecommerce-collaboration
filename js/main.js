@@ -25,17 +25,18 @@ document.addEventListener('DOMContentLoaded', () => {
             card.innerHTML = `
                 <img src="${product.image}" alt="${product.name}">
                 <h3>${product.name}</h3>
-                <p>ราคา: ${product.price} บาท</p>
-            `;
+                <p>ราคา: ${product.price} บาท</p>`;
             productList.appendChild(card);
         });
     }
 
-    // Inefficient Search
     searchInput.addEventListener('keyup', () => {
-        const searchTerm = searchInput.value.toLowerCase();
+        const searchTerm = searchInput.value.toLowerCase().trim();
+        if (searchTerm === '') {
+        displayProducts(allProducts);
+        return;
+    }
         const filteredProducts = allProducts.filter(product => {
-            // Simple search, not very efficient
             return product.name.toLowerCase().includes(searchTerm);
         });
         displayProducts(filteredProducts);
