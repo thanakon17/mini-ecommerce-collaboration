@@ -8,6 +8,8 @@ https://github.com/thanakon17/mini-ecommerce-collaboration
 
 Documentation: README.md ที่อธิบายโปรเจกต์
 
+<img width="1034" height="1161" alt="Screenshot 2025-07-22 223229" src="https://github.com/user-attachments/assets/fb789e85-92fd-4c23-8b16-4d8ff3a1a514" />
+
 
 Git History: Commit history ที่เป็นระเบียบ
 
