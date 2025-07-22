@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
     loader.style.display = "block";
     content.style.display = "none";
     // Fetch products from JSON
-<<<<<<< HEAD
     setTimeout(() => {
         fetch('js/products.json')
             .then(response => response.json())
@@ -18,17 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 displayProducts(allProducts);
             });
     }, 1000);
-=======
-        fetch('js/products.json')
-            .then(response => response.json())
-            .then(data => {
-
-                allProducts = data;
-                displayProducts(allProducts);
-            });
-
-
->>>>>>> 4fae78c (fix: Improve search logic and handle empty input)
     function displayProducts(products) {
         productList.innerHTML = ''; // Clear previous list
         products.forEach(product => {

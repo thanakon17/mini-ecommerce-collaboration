@@ -1,9 +1,5 @@
 body { font-family: sans-serif; margin: 0; background-color: #f4f4f400; }
-<<<<<<< HEAD
 header { background: #000000; color: #ffffff; padding: 1rem; text-align: center; }
-=======
-header { background: #333; color: #ffffff; padding: 1rem; text-align: center; }
->>>>>>> 4fae78c (fix: Improve search logic and handle empty input)
 input[type="text"] { width: 60%; padding: 8px; }
 main {justify-content: center; padding: 1rem; }
 .product-card {
@@ -16,7 +12,6 @@ main {justify-content: center; padding: 1rem; }
     text-align: center;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     transition: 0.4s;
-<<<<<<< HEAD
 }
 .product-card:hover{
     transform: scale(1.05);
@@ -24,8 +19,6 @@ main {justify-content: center; padding: 1rem; }
 }
 #product-list{
     display: flex; flex-wrap: wrap;
-=======
->>>>>>> 4fae78c (fix: Improve search logic and handle empty input)
 }
 .product-card img { max-width: 100%; height: auto; }
 .product-card h3 { font-size: 1.1em; }
