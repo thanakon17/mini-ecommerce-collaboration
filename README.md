@@ -20,6 +20,6 @@ Pull Requests: อย่างน้อย 2 PRs พร้อม reviews
 <img width="1046" height="1029" alt="Screenshot 2025-07-22 213802" src="https://github.com/user-attachments/assets/4cb43842-5705-43f0-8e63-6cc7426331af" />
 <img width="1045" height="1042" alt="Screenshot 2025-07-22 220928" src="https://github.com/user-attachments/assets/c2b052a6-a76e-4520-a6fa-136953def9db" />
 
-Team Report: รายงานการทำงานเป็นทีม (2-3 หน้า
+Team Report: รายงานการทำงานเป็นทีม
 )
 https://docs.google.com/document/d/1nrJhEbGkDiqYtedQkwME1M-cqncJEHcJzOwO-QMeBsk/edit?usp=sharing
