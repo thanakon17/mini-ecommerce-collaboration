@@ -1,5 +1,5 @@
 Working Website: เว็บไซต์ที่ทำงานได้สมบูรณ์:
-https://thanakon17.github.io/mini-ecommerce-collaboration/)
+https://thanakon17.github.io/mini-ecommerce-collaboration
 
 Repository: GitHub repository พร้อม proper structure:
 https://github.com/thanakon17/mini-ecommerce-collaboration
